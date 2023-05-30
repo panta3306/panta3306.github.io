@@ -137,3 +137,38 @@ footer{
 .encuentrame a:hover {
     transform: scale(1.2);
   }
+
+ @media screen and (max-width: 480px) {
+
+    #caja-principal{
+        display: block;
+    }
+    
+    #area-texto{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #sub-caja{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #botones input{
+        width: 35%;
+        height: 30px;
+        font-size: 5px;
+        font-weight: bolder;
+        border: 0;
+        border-radius: 5px;
+        background: #58F17B;
+        color: white;
+        letter-spacing: 3px;
+        transition: 1s;
+    }
+
+    #botones input:hover{
+        width: 35%;
+        height: 30px;
+    }
+  }
