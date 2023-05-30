@@ -140,6 +140,12 @@ footer{
 
  @media screen and (max-width: 480px) {
 
+     main{
+        width: 100%;
+        background: linear-gradient(#FEFEFE, #888888);
+        padding: 10px;
+    }
+     
     #caja-principal{
         display: block;
     }
