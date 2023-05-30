@@ -1,0 +1,139 @@
+.img-principal{
+    padding: 5px;
+}
+
+main{
+    background: linear-gradient(#FEFEFE, #888888);
+    padding: 10px;
+}
+
+#caja-principal{
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;  
+}
+
+#area-texto{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#myTextarea{
+    width: 100%;
+    height: 460px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    border: 2px solid gray;
+    border-radius: 30px;
+    transition: 1s;
+}    
+
+#myTextarea:hover{
+    border: 3px solid darkgrey;
+    background: beige;
+}
+
+#sub-caja{
+    width: 30%;
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin: 0 auto;
+    background: paleturquoise;
+    transition: 1s;
+}
+
+#sub-caja:hover{
+    background: rebeccapurple;
+}
+
+#muneco{
+    vertical-align: top;
+}
+
+#inputcode{
+    vertical-align: bottom;
+    width: 80%;
+    margin-left: 9%;
+    height: 150px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+#inputcode:hover{
+    background: papayawhip;
+}
+
+#botones{
+    width: 81%;
+    display: flex;
+    margin: 0 auto;    
+}
+
+#encripado{
+    width: 62%;
+    margin-left: 15%;
+}
+
+#copiando{
+    width: 40%;
+    display: block;
+}
+
+#botones input{
+    width: 30%;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 0;
+    border-radius: 30px;
+    background: #58F17B;
+    color: white;
+    letter-spacing: 3px;
+    transition: 1s;
+}
+
+#botones input:hover{
+    width: 35%;
+    height: 65px;
+}
+
+#copiar{
+    margin: 0 30%;
+}
+
+footer{
+    background: #1C1C1C;
+    height: 150px;
+}
+
+.encuentrame{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+}
+
+.encuentrame a{
+    text-decoration: none;
+    margin: auto 15px;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: 1s;
+}
+
+.encuentrame a:hover {
+    transform: scale(1.2);
+  }
